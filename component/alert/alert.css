@@ -1,4 +1,4 @@
-@import url(./style.css);
+@import url('/style.css');
  @import url( '/component/slidebaar.css');
  :root{
     --primary-color: #ff3b30;
@@ -17,12 +17,10 @@
      margin-top: 15px;
  }
  .alert-content{
-     /* background-color: #ff3b30; */
-     /* text-align: center; */
+    
      height: 20rem;
      width: 50rem;
-     /* display: flex; */
-     /* position: absolute; */
+    
      margin-left: 18rem;
      margin-top: -30rem;
       
@@ -58,5 +56,9 @@
     p{
      font-size: 1.5rem;
  }
+ /* .all-containant{
+     display: flex;
+ } */
+ 
 
   
