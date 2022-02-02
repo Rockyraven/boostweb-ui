@@ -2,7 +2,7 @@ body{
     margin: 0px;
     padding: 0px;
     /* background-color: rebeccapurple; */
-    background-image: url(./component-wallpaper1.jpg);
+    /* background-image: url(./component-wallpaper1.jpg); */
 }
 .container img{
 height: 100%;
@@ -27,7 +27,7 @@ flex-wrap: wrap;
 }
 .social-media-link a{
     margin-right: 2.5rem;
-    color: white;
+    color: red;
 }
 .description-part{
     position: absolute;
