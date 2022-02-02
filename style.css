@@ -1,9 +1,15 @@
 body{
     margin: 0px;
     padding: 0px;
-    /* background-color: rebeccapurple; */
-    /* background-image: url(./component-wallpaper1.jpg); */
+   
 }
+:root{
+    --primary-color: #ff3b30;
+    --secondary-color: #282828;
+ }
+
+
+/* var primary color -- */
 .container img{
 height: 100%;
 width: 100%;
@@ -15,19 +21,19 @@ flex-wrap: wrap;
     position: absolute;
     top: 5px;
     left: 1rem;
-    color: red;
+    color: var(--primary-color);
     flex-wrap: wrap;
 }
 .social-media-link {
     position: absolute;
     top: 1.6rem;
     right: 5px;
-    color: red;
+    color: var(--primary-color);
     flex-wrap: wrap;
 }
 .social-media-link a{
     margin-right: 2.5rem;
-    color: red;
+    color: var(--primary-color);
 }
 .description-part{
     position: absolute;
@@ -39,11 +45,11 @@ flex-wrap: wrap;
 .description-part a{
     margin-left: 10rem;
     font-size: 20px;
-    border: 1px solid red;
+    border: 1px solid var(--primary-color);
     padding: 0.5rem;
-    color: red;
+    color: var(--primary-color);
     border-radius: 5px;
 }
 span{
-    color: red;
+    color: var(--primary-color);
 }
