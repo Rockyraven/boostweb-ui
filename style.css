@@ -1,0 +1,49 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    /* background-color: rebeccapurple; */
+    background-image: url(./component-wallpaper1.jpg);
+}
+.container img{
+height: 100%;
+width: 100%;
+/* position: fixed; */
+display: flex;
+flex-wrap: wrap;
+}
+.heading{
+    position: absolute;
+    top: 5px;
+    left: 1rem;
+    color: red;
+    flex-wrap: wrap;
+}
+.social-media-link {
+    position: absolute;
+    top: 1.6rem;
+    right: 5px;
+    color: red;
+    flex-wrap: wrap;
+}
+.social-media-link a{
+    margin-right: 2.5rem;
+    color: white;
+}
+.description-part{
+    position: absolute;
+    top: 40%;
+    right: 5px;
+    color: white;
+    flex-wrap: wrap;
+}
+.description-part a{
+    margin-left: 10rem;
+    font-size: 20px;
+    border: 1px solid red;
+    padding: 0.5rem;
+    color: red;
+    border-radius: 5px;
+}
+span{
+    color: red;
+}
