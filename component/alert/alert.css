@@ -9,12 +9,10 @@
   header h1{
      margin-top: 0.9rem;
  }
-
- .alert-content{
- height: 20rem;
- width: 50rem;
- margin-left: 18rem;
- margin-top: -30rem;
+ 
+ .all-containant{
+     display: flex;
+     gap: 2rem;
  }
 
  .alert{
