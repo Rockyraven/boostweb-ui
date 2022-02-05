@@ -1,8 +1,7 @@
 body{
     margin: 0px;
     padding: 0px;
-    /* background-color: rebeccapurple; */
-    /* background-image: url(./component-wallpaper1.jpg); */
+    font-family: 'Short Stack', cursive;
 }
 :root{
     --primary-color: #ff3b30;

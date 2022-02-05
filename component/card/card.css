@@ -1,0 +1,8 @@
+@import url('/style.css');
+ @import url('/component/slidebaar.css');
+ @import url('/component/alert/alert.css');
+
+ *{
+     margin: 0px;
+     padding: 0px;
+ }
