@@ -2,12 +2,10 @@ body{
     margin: 0px;
     padding: 0px;
 }
-
 :root{
     --primary-color: #ff3b30;
     --secondary-color: #282828;
  }
-
 .container img{
     height: 100%;
     width: 100%;
@@ -39,11 +37,12 @@ body{
 .description-part{
     position: absolute;
     height: 20rem;
-    width: 20rem;
+    width: 25rem;
     top: 30%;
     right: 1rem;
     color: white;
     flex-wrap: wrap;
+    /* background-color: red; */
 }
 
 .description-part a{
@@ -58,7 +57,10 @@ body{
 span{
     color: var(--primary-color);
 }
-
 .description-part a:hover{
     background-color: red;
+}
+main{
+    min-height: 100vh;
+    padding-top: 2rem;
 }
