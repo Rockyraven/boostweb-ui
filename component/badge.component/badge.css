@@ -24,6 +24,7 @@
 .badge-icon{
     display: flex;
     gap: 4rem;
+    justify-content: space-evenly;
     /* text-align: center; */
     /* align-items: center; */
     
@@ -44,13 +45,13 @@ h5{
 .badge-icon{
     height: 20%;
     width: 90%;
-    padding-left: 3rem;
+   justify-content: center;
     border: 1px solid ;
 }
  
 .badge{
     margin-top: 4rem;
-    margin-left: 2rem;
+    /* margin-left: 2rem; */
 }
 .symbol3{
     margin-left: 1.7rem;
@@ -76,12 +77,13 @@ h5{
     background-color: rgb(238, 141, 141);
 }
 .description{
-    font-size: 20px;
+    font-size: 1.5vw;
 }
 .text-badge h2{
     border: 1px solid;
-    padding:  2px;
-    padding-left: 5px;
+     
+    text-align: center;
+    padding: 5px;
     
     border-radius: 5px;
     background-color: rgb(231, 229, 229);
