@@ -6,3 +6,88 @@
      margin: 0px;
      padding: 0px;
  }
+
+ .vertical-card{
+     height: 20rem;
+     width: 12rem;
+     border: 1px solid;
+     border-radius: 5px;
+ }
+ .vertical-card img{
+     height: 66%;
+     width: 100%;
+ }
+ .image-title{
+     font-size: 17px;
+ }
+ .image-subtitle{
+     font-size: 15px;
+     color: rgb(177, 176, 176);
+    }
+.actual-price{
+        text-decoration: line-through;
+        color: rgb(177, 176, 176);
+ }
+ .discount{
+    font-size: 15px;
+    color: var(--primary-color);
+    margin-left: auto;
+ }
+ .price-content{
+     display: flex;
+     align-items: center;
+ }
+ 
+.buy-button ,.read-more{
+        background-color: rgb(73, 72, 72);
+     height: 26px;
+     width: 95%;
+     text-align: center;
+     border-radius: 5px;
+     margin-left: 5px;
+     color: white;
+     padding-top: 5px;
+    }
+    .buy-button a,.read-more a{
+        color: white;
+ }
+ .horizontal-card{
+     height: 18rem;
+     width: 25rem;
+     border: 1px solid;
+     border-radius: 5px;
+ }
+ .horizontal-card img{
+     height: 15rem;
+     width: 14rem;
+ }
+ .horizontal-content{
+     display: flex;
+     gap: 1rem;
+ }
+ .text-overlay{
+     height: 21rem;
+     width: 15rem;
+     border: 1px solid;
+     border-radius: 5px;
+ }
+ .text-overlay img{
+     width: 100%;
+ }
+ .text-overlay p{
+     font-size: 20px;
+ }
+ .text-overlay-heading{
+     margin-top: -2rem;
+     text-align: center;
+ }
+ .text-only{
+     height: 16rem;
+     width: 15rem;
+     border: 1px solid;
+     border-radius: 5px;
+ }
+ .text-only-heading{
+     text-align: center;
+
+ }
