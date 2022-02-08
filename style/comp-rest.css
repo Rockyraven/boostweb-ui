@@ -1,0 +1,15 @@
+body {
+    background: unset;
+}
+
+.nav{
+    background-color: var(--secondary-color);
+}
+
+.container{
+    display: flex;
+}
+
+main{
+    display: block;
+}

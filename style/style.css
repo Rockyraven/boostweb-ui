@@ -1,9 +1,11 @@
  @import url('./reset.css');
  @import url('./header.css');
-main{
-    display: flex;
-    justify-content: flex-end;
-}
+
+ main {
+     display: flex;
+     justify-content: flex-end;
+ }
+
  .description {
      width: 30rem;
      height: 30rem;
@@ -11,16 +13,20 @@ main{
      color: var(--default-color);
 
  }
- .heading{
+
+ .heading {
      margin-bottom: 2rem;
  }
- .heading span{
+
+ .heading span {
      color: var(--primary-color);
  }
- .desc-para{
+
+ .desc-para {
      margin-bottom: 2rem;
- }  
- .btn-explore{
+ }
+
+ .btn-explore {
      color: var(--default-color);
      font-weight: 400;
      font-size: 1.5rem;
@@ -28,65 +34,6 @@ main{
      margin-right: 2rem;
  }
 
- .btn-explore:hover{
+ .btn-explore:hover {
      background-color: var(--primary-color);
  }
-
- /*
-.container img{
-    height: 100%;
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.heading{
-    position: absolute;
-    top: 5px;
-    left: 1rem;
-    color: var(--primary-color);
-    flex-wrap: wrap;
-}
-
-.social-media-link {
-    position: absolute;
-    top: 1.6rem;
-    right: 5px;
-    color: var(--primary-color);
-    flex-wrap: wrap;
-}
-
-.social-media-link a{
-    margin-right: 2.5rem;
-    color: var(--primary-color);
-}
-
-.description-part{
-    position: absolute;
-    height: 20rem;
-    width: 25rem;
-    top: 30%;
-    right: 1rem;
-    color: white;
-    flex-wrap: wrap;
-}
-
-.description-part a{
-    margin-left: 10rem;
-    font-size: 20px;
-    border: 1px solid var(--primary-color);
-    padding: 0.5rem;
-    color: white;
-    border-radius: 5px;
-}
-
-span{
-    color: var(--primary-color);
-}
-.description-part a:hover{
-    background-color: red;
-}
-main{
-    min-height: 100vh;
-    padding-top: 2rem;
-} */
