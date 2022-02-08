@@ -8,6 +8,9 @@ aside{
     width: 20%;
     overflow: auto;
     margin-top: 1px;
+    position: sticky;
+    top: 0;
+    left: 0;
 }
 aside a{
     color: var(--default-color);
