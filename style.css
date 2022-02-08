@@ -5,6 +5,10 @@ body{
 :root{
     --primary-color: #ff3b30;
     --secondary-color: #282828;
+    --success-color: rgb(129, 250, 129);
+    --warning-color: rgb(211, 233, 132);
+    --error-color: rgb(245, 102, 91);
+    --info-color: rgb(132, 134, 233);
  }
 .container img{
     height: 100%;
