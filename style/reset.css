@@ -1,0 +1,26 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Short Stack', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: url('../images/component-wallpaper1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+a {
+    text-decoration: none;
+}
+
+:root {
+    --default-color: #ffff;
+    --primary-color: #ff3b30;
+    --secondary-color: #282828;
+    --success-color: rgb(129, 250, 129);
+    --warning-color: rgb(211, 233, 132);
+    --error-color: rgb(245, 102, 91);
+    --info-color: rgb(132, 134, 233);
+}

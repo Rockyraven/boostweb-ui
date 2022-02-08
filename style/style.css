@@ -1,16 +1,38 @@
-body{
-    margin: 0px;
-    padding: 0px;
-    font-family: 'Short Stack', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ @import url('./reset.css');
+ @import url('./header.css');
+main{
+    display: flex;
+    justify-content: flex-end;
 }
-:root{
-    --primary-color: #ff3b30;
-    --secondary-color: #282828;
-    --success-color: rgb(129, 250, 129);
-    --warning-color: rgb(211, 233, 132);
-    --error-color: rgb(245, 102, 91);
-    --info-color: rgb(132, 134, 233);
+ .description {
+     width: 30rem;
+     height: 30rem;
+     padding: 10rem 2rem;
+     color: var(--default-color);
+
  }
+ .heading{
+     margin-bottom: 2rem;
+ }
+ .heading span{
+     color: var(--primary-color);
+ }
+ .desc-para{
+     margin-bottom: 2rem;
+ }  
+ .btn-explore{
+     color: var(--default-color);
+     font-weight: 400;
+     font-size: 1.5rem;
+     float: right;
+     margin-right: 2rem;
+ }
+
+ .btn-explore:hover{
+     background-color: var(--primary-color);
+ }
+
+ /*
 .container img{
     height: 100%;
     width: 100%;
@@ -47,7 +69,6 @@ body{
     right: 1rem;
     color: white;
     flex-wrap: wrap;
-    /* background-color: red; */
 }
 
 .description-part a{
@@ -68,4 +89,4 @@ span{
 main{
     min-height: 100vh;
     padding-top: 2rem;
-}
+} */
