@@ -1,6 +1,7 @@
 body{
     margin: 0px;
     padding: 0px;
+    font-family: 'Short Stack', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 :root{
     --primary-color: #ff3b30;
