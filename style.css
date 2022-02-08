@@ -1,20 +1,22 @@
 body{
     margin: 0px;
     padding: 0px;
-    /* background-color: rebeccapurple; */
-    /* background-image: url(./component-wallpaper1.jpg); */
 }
 :root{
     --primary-color: #ff3b30;
     --secondary-color: #282828;
+    --success-color: rgb(129, 250, 129);
+    --warning-color: rgb(211, 233, 132);
+    --error-color: rgb(245, 102, 91);
+    --info-color: rgb(132, 134, 233);
  }
 .container img{
-height: 100%;
-width: 100%;
-/* position: fixed; */
-display: flex;
-flex-wrap: wrap;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
 }
+
 .heading{
     position: absolute;
     top: 5px;
@@ -22,6 +24,7 @@ flex-wrap: wrap;
     color: var(--primary-color);
     flex-wrap: wrap;
 }
+
 .social-media-link {
     position: absolute;
     top: 1.6rem;
@@ -29,10 +32,12 @@ flex-wrap: wrap;
     color: var(--primary-color);
     flex-wrap: wrap;
 }
+
 .social-media-link a{
     margin-right: 2.5rem;
-    color: white;
+    color: var(--primary-color);
 }
+
 .description-part{
     position: absolute;
     height: 20rem;
@@ -43,6 +48,7 @@ flex-wrap: wrap;
     flex-wrap: wrap;
     /* background-color: red; */
 }
+
 .description-part a{
     margin-left: 10rem;
     font-size: 20px;
@@ -51,8 +57,12 @@ flex-wrap: wrap;
     color: white;
     border-radius: 5px;
 }
+
 span{
     color: var(--primary-color);
+}
+.description-part a:hover{
+    background-color: red;
 }
 main{
     min-height: 100vh;
