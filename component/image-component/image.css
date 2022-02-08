@@ -1,0 +1,32 @@
+@import url('/style.css');
+ @import url('/component/slidebaar.css');
+ @import url('/component/alert/alert.css');
+
+ body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+ }
+  .image {
+     display: flex;
+     gap: 20rem;
+     margin-top: 2rem;
+  }
+ .round-image img{
+    height: 35vh;
+    width: 20vw;
+    border: 1px solid;
+    border-radius: 50%;
+   }
+   .responsive-image img{
+      height: 35vh;
+      width: 20vw;
+      border: 1px solid;
+ }
+ .image-description{
+    margin-left: 3rem;
+    margin-top: 2rem;
+ }
+ .image-container{
+    margin-top: 2rem;
+ }
