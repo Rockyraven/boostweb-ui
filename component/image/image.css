@@ -1,12 +1,7 @@
 @import url('/style.css');
  @import url('/component/slidebaar.css');
  @import url('/component/alert/alert.css');
-
- body{
-    margin: 0px;
-    padding: 0px;
-    font-family: 'Montserrat', sans-serif;
- }
+ 
   .image {
      display: flex;
      gap: 20rem;
@@ -23,10 +18,8 @@
       width: 20vw;
       border: 1px solid;
  }
- .image-description{
-    margin-left: 3rem;
+ .image-area{
     margin-top: 2rem;
- }
- .image-container{
-    margin-top: 2rem;
+    display: flex;
+    gap: 18rem;
  }
