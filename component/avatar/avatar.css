@@ -1,11 +1,4 @@
-@import url('/style.css');
- @import url('/component/slidebaar.css');
- @import url('/component/alert/alert.css');
-*{
-    margin: 0px;
-    padding: 0px;
-}
-.Extra-large-img img{
+.extra-large-img img{
     height: 5rem;
     width: 5rem;
     border-radius: 50%;
@@ -25,16 +18,5 @@
     width: 1.5rem;
     border-radius: 50%;
 }
-.avatar-icon{
-    display: flex;
-    height: 8rem;
-    width: 70%;
-    box-shadow: 5px 5px 5px rgb(163, 161, 161);
-    gap: 6vw;
-    border: 1px solid;
-    margin-top: 2rem;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-}
+
  

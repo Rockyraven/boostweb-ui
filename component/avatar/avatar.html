@@ -5,67 +5,66 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Avatar Component</title>
-    <link rel="stylesheet" href="avatar.css">
+    <title>BOOSTWEB-UI | Avatar</title>
+    <!-- fonstawesome links for fonts -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+    <!-- custom link for documetation -->
+    <link rel="stylesheet" href="/style/comp-rest.css">
+
+    <!-- component libraray -->
+    <link rel="stylesheet" href="/component/boostweb.css">
 </head>
-<script src="https://kit.fontawesome.com/a076d05399.js"></script>
 
 <body>
-    <div class="header-content">
-        <header>
-            <h1 class="heading">BOOSTWEB UI</h1>
-            <div class="social-media-link">
-                <a href="#"> <i class="fab fa-instagram" style="font-size:40px"></i> </a>
-                <a href="#"> <i class="fab fa-linkedin" style="font-size:40px"></i></a>
-                <a href="#"> <i class="fab fa-github" style="font-size:40px"> </i></a>
-            </div>
-        </header>
-    </div>
-    <hr>
-    <div class="all-containant">
+    <!-- header section -->
+    <header class="nav">
+        <h1 class="logo">BOOSTWEB UI</h1>
+        <div class="social-icons">
+            <a href="https://www.linkedin.com/in/rocky-abb69921b/"><i class="social-icon fa fa-linkedin"></i></a>
+            <a href="https://twitter.com/ImRocky7277"><i class="social-icon fa fa-twitter"></i> </a>
+            <a href="https://github.com/Rockyraven"><i class="social-icon fa fa-github"> </i></a>
+        </div>
+    </header>
+
+    <div class="container">
+        <!-- sidebar -->
         <aside class="sidebar">
-            <h2>Install BOOSTWEB UI</h1>
-                <ul>
-                    <li> <a href="#">Alert </a></li>
-                    <li> <a href="#">Avater </a></li>
-                    <li> <a href="#">Badge </a></li>
-                    <li> <a href="#">Button </a></li>
-                    <li> <a href="#">Card </a></li>
-                    <li> <a href="#">Image </a></li>
-                    <li> <a href="#">Input </a></li>
-                </ul>
+            <a href="/installation.html">Install</a>
+            <a href="/component/alert/alert.html">Alert</a>
+            <a href="/component/avatar/avatar.html">Avatar</a>
+            <a href="/component/badge/badge.html">Badge</a>
+            <a href="/component/button/button.html">Button</a>
+            <a href="/component/card/card.html">Card</a>
+            <a href="/component/image/image.html">Image</a>
+            <a href="/component/input/input.html">Input</a>
         </aside>
-        <br>
-        <main class="avatar-content">
-            <h1>Avatar</h1>
-            <hr>
-              <p>Avatars are images that users can set as their profile picture.</p>
-              <p> They can be custom photos, uploaded by users, or generated as Identicons as a placeholder.</p>
-            <br>
-            <h2>Example of avatar</h2>
-            <p>Extra-large,Large,Medium,Small </p>
-            <div class="avatar-icon">
-                <div class="Extra-large-img image">
-                    <img src="/component/avatar/avatar2.png" alt="Avatar">
+
+        <!-- main content -->
+        <main>
+            <h2 class="comp-heading">Avatar</h2>
+            <p class="comp-desc">Avatars are images that users can set as their profile picture.They can be custom
+                photos, uploaded by users, or generated as Identicons as a placeholder.</p>
+            <div class="code-preview">
+                <div class="extra-large-img image">
+                    <img src="/component/image/avatar2.png" alt="Avatar">
                 </div>
                 <div class="large-img image">
-                    <img src="/component/avatar/avatar3.jpg" alt="Avatar">
+                    <img src="/component/image/avatar3.jpg" alt="Avatar">
                 </div>
                 <div class="medium-img image">
-                    <img src="/component/badge.component/avatar.png" alt="Avatar">
+                    <img src="/component/image/avatar3.jpg" alt="Avatar">
                 </div>
                 <div class=" small-img image">
-                   <img src="/component/badge.component/avatar.png" alt="Avatar">
+                    <img src="/component/image/avatar2.png" alt="Avatar">
                 </div>
             </div>
-            <br>
-            <iframe
-                src="https://carbon.now.sh/embed?bg=rgba%28255%2C59%2C48%2C1%29&t=blackboard&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522avatar-icon%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522Extra-large-img%2520image%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520%2520src%253D%2522%252Fcomponent%252Favatar%252Favatar2.jpg%2522%2520alt%253D%2522Avatar%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522large-img%2520image%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520%2520src%253D%2522%252Fcomponent%252Favatar%252Favatar3.jpg%2522%2520alt%253D%2522Avatar%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522medium-img%2520image%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520%2520src%253D%2522%252Fcomponent%252Fbadge.component%252Favatar.png%2522%2520alt%253D%2522Avatar%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522%2520small-img%2520image%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520%2520src%253D%2522%252Fcomponent%252Fbadge.component%252Favatar.png%2522%2520alt%253D%2522Avatar%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
-                style="width: 842px; height: 466px; border:0; transform: scale(1); overflow:hidden;"
-                sandbox="allow-scripts allow-same-origin">
-            </iframe>
+            <iframe class="code"
+            src="https://carbon.now.sh/embed?bg=rgba%28255%2C59%2C48%2C1%29&t=blackboard&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522Extra-large-img%2520image%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522%252Fcomponent%252Favatar%252Favatar2.png%2522%2520alt%253D%2522Avatar%2522%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522large-img%2520image%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522%252Fcomponent%252Favatar%252Favatar3.jpg%2522%2520alt%253D%2522Avatar%2522%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522medium-img%2520image%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522%252Fcomponent%252Favatar%252Favatar3.jpg%2522%2520alt%253D%2522Avatar%2522%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522%2520small-img%2520image%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522%252Fcomponent%252Favatar%252Favatar2.png%2522%2520alt%253D%2522Avatar%2522%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+            sandbox="allow-scripts allow-same-origin">
+          </iframe>
         </main>
+    </div>
 
 </body>
 

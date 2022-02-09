@@ -35,6 +35,8 @@ main{
     height: auto;
     margin-bottom: 2rem;
     box-shadow: rgba(14, 30, 37, 0.062) 0px 2px 4px 0px, rgba(14, 30, 37, 0.199) 0px 2px 16px 0px;
+    display: flex;
+    flex-wrap: wrap;
 }
 .code-preview:hover{
     box-shadow: rgba(14, 30, 37, 0.315) 0px 2px 4px 0px, rgba(14, 30, 37, 0.329) 0px 2px 16px 0px;
