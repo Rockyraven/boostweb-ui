@@ -1,0 +1,25 @@
+aside {
+    background-color: var(--secondary-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2rem;
+    height: calc(100vh - 4.375rem - 1px);
+    width: 20%;
+    overflow: auto;
+    margin-top: 1px;
+    position: sticky;
+    top: calc(4.375rem + 1px);
+    left: 0;
+}
+
+aside a {
+    color: var(--default-color);
+    font-size: 1.5rem;
+}
+
+aside a:hover {
+    color: var(--primary-color);
+    font-size: 2rem;
+    transition: 0.5s;
+}

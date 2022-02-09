@@ -1,15 +1,12 @@
 @import url('/style.css');
 @import url('/component/slidebaar.css');
 
-.container {
-    display: flex;
-    height: 8rem;
-    width: 80%;
-    border: 1px solid rgb(136, 136, 136);
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    box-shadow: 5px 5px 5px rgb(163, 161, 161);
+.btn{
+    border: 2px solid red;
+    padding: 0.5rem;
+    border-radius: 0.2rem;
 }
+
 
 .container button {
     margin-left: 3rem;
