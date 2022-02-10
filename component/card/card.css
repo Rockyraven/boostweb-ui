@@ -9,9 +9,11 @@
 
  .vertical-card{
      height: 20rem;
-     width: 12rem;
+     width: 14rem;
      border: 1px solid;
      border-radius: 5px;
+     margin-left: 5rem;
+     flex-wrap: wrap;
  }
  .vertical-card img{
      height: 66%;
@@ -22,11 +24,11 @@
  }
  .image-subtitle{
      font-size: 15px;
-     color: rgb(177, 176, 176);
+     color: var(--subtitleActualprice-color);
     }
-.actual-price{
+    .actual-price{
         text-decoration: line-through;
-        color: rgb(177, 176, 176);
+        color: var(--subtitleActualprice-color);
  }
  .discount{
     font-size: 15px;
@@ -39,21 +41,21 @@
  }
  
 .buy-button ,.read-more{
-        background-color: rgb(73, 72, 72);
+    background-color: var(--button-color);
      height: 26px;
      width: 95%;
      text-align: center;
      border-radius: 5px;
      margin-left: 5px;
-     color: white;
+     color: var(--default-color);
      padding-top: 5px;
     }
     .buy-button a,.read-more a{
-        color: white;
+    color: var(--default-color);
  }
  .horizontal-card{
      height: 18rem;
-     width: 25rem;
+     width: 26rem;
      border: 1px solid;
      border-radius: 5px;
  }
@@ -66,28 +68,45 @@
      gap: 1rem;
  }
  .text-overlay{
-     height: 21rem;
+     height: 21.5rem;
      width: 15rem;
      border: 1px solid;
      border-radius: 5px;
+     margin-left: 2rem;
  }
  .text-overlay img{
      width: 100%;
  }
- .text-overlay p{
-     font-size: 20px;
+ .text-overlay,.text-only p{
+     font-size: 1.25px;
  }
  .text-overlay-heading{
-     margin-top: -2rem;
+     margin-top: -2.7rem;
      text-align: center;
  }
  .text-only{
-     height: 16rem;
+     height: 13rem;
      width: 15rem;
      border: 1px solid;
      border-radius: 5px;
+     margin-left: 2rem;
  }
  .text-only-heading{
      text-align: center;
 
+ }
+ .sell-tag{
+    position: absolute;
+    background-color: var(--primary-color);
+    padding: 2px;
+    color: var(--default-color);
+ }
+ .wiselist-tag{
+     margin-left: 12rem;
+     position: absolute;
+     color: var(--primary-color);
+ }
+ .horizontal-overlay-onlytext{
+     gap: 1rem;
+     flex-wrap: wrap;
  }
