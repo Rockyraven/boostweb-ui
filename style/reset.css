@@ -24,4 +24,6 @@ a {
     --warning-color: rgb(211, 233, 132);
     --error-color: rgb(245, 102, 91);
     --info-color: rgb(132, 134, 233);
+    --button-color: rgb(73, 72, 72);
+    --subtitleActualprice-color: rgb(177, 176, 176);
 }

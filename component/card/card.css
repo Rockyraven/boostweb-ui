@@ -24,11 +24,11 @@
  }
  .image-subtitle{
      font-size: 15px;
-     color: rgb(177, 176, 176);
+     color: var(--subtitleActualprice-color);
     }
-.actual-price{
+    .actual-price{
         text-decoration: line-through;
-        color: rgb(177, 176, 176);
+        color: var(--subtitleActualprice-color);
  }
  .discount{
     font-size: 15px;
@@ -41,7 +41,7 @@
  }
  
 .buy-button ,.read-more{
-        background-color: rgb(73, 72, 72);
+    background-color: var(--button-color);
      height: 26px;
      width: 95%;
      text-align: center;
@@ -51,7 +51,7 @@
      padding-top: 5px;
     }
     .buy-button a,.read-more a{
-        color: var(--default-color);
+    color: var(--default-color);
  }
  .horizontal-card{
      height: 18rem;
@@ -78,7 +78,7 @@
      width: 100%;
  }
  .text-overlay,.text-only p{
-     font-size: 20px;
+     font-size: 1.25px;
  }
  .text-overlay-heading{
      margin-top: -2.7rem;
@@ -108,4 +108,5 @@
  }
  .horizontal-overlay-onlytext{
      gap: 1rem;
+     flex-wrap: wrap;
  }
