@@ -5,6 +5,170 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOOSTWEB-UI | Card</title>
+    <!-- fonstawesome links for fonts -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- custom link for documetation -->
+    <link rel="stylesheet" href="/style/comp-rest.css">
+
+    <!-- component libraray -->
+    <link rel="stylesheet" href="/component/boostweb.css">
+</head>
+
+<body>
+    <!-- header section -->
+    <header class="nav">
+        <h1 class="logo">BOOSTWEB UI</h1>
+        <div class="social-icons">
+            <a href="https://www.linkedin.com/in/rocky-abb69921b/"><i class="social-icon fa fa-linkedin"></i></a>
+            <a href="https://twitter.com/ImRocky7277"><i class="social-icon fa fa-twitter"></i> </a>
+            <a href="https://github.com/Rockyraven"><i class="social-icon fa fa-github"> </i></a>
+        </div>
+    </header>
+
+    <div class="container">
+        <!-- sidebar -->
+        <aside class="sidebar">
+            <a href="/installation.html">Install</a>
+            <a href="/component/alert/alert.html">Alert</a>
+            <a href="/component/avatar/avatar.html">Avatar</a>
+            <a href="/component/badge/badge.html">Badge</a>
+            <a href="/component/button/button.html">Button</a>
+            <a href="/component/card/card.html">Card</a>
+            <a href="/component/image/image.html">Image</a>
+            <a href="/component/input/input.html">Input</a>
+        </aside>
+
+        <!-- main content -->
+        <main>
+            <h2 class="comp-heading">Card</h2>
+            <p class="comp-desc">Cards are great for organizing and enhancing a website's user interface. Each card is
+                uniquely designed
+                to make it easy for users to read the card content.</p>
+            <h3>Vertical card with Badge and Vertical Card</h3>
+            <div class="code-preview">
+                <!---------------- vertical-card with badge -------->
+                <div class="vertical-card">
+                    <div class="sell-tag">
+                        <span class="card-badge">FOR SELL</span>
+                    </div>
+                    <img src="/component/card/badge-card.jpeg" alt="">
+                    <div class="wiselist-tag">
+                        <i class="fa fa-heart"></i>
+                    </div>
+                    <p class="image-title">Solid Men Hooded </p>
+                    <p class="image-subtitle">TRIPR</p>
+                    <div class="price-content">
+                        <h2 class="price">₹459 </h2>
+                        <h3 class="actual-price"> ₹1,849</h3>
+                        <p class="discount">(82% off)</p>
+                    </div>
+                    <div class="buy-button">
+                        <a href="#" class="buy">BUY NOW</a>
+                    </div>
+                </div>
+                <!---------------- vertical-card --------------->
+                <div class="vertical-card">
+                    <img src="/component/card/horizontal-image.jpeg" alt="">
+                    <p class="image-title">Solid Men Hooded </p>
+                    <p class="image-subtitle">TRIPR</p>
+                    <div class="price-content">
+                        <h2 class="price">₹500 </h2>
+                        <h3 class="actual-price"> ₹1000</h3>
+                        <p class="discount">(50% off)</p>
+                    </div>
+                    <div class="buy-button">
+                        <a href="#" class="buy">BUY NOW</a>
+                    </div>
+                </div>
+            </div>
+            <iframe class="code"
+                src="https://carbon.now.sh/embed?bg=rgba%28255%2C59%2C48%2C1%29&t=blackboard&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%2520%2520%253C%21----------------%2520vertical-card%2520with%2520badge%2520--------%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522vertical-card%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522sell-tag%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522card-badge%2522%253EFOR%2520SELL%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522%252Fcomponent%252Fcard%252Fbadge-card.jpeg%2522%2520alt%253D%2522%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522wiselist-tag%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-heart%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522image-title%2522%253ESolid%2520Men%2520Hooded%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522image-subtitle%2522%253ETRIPR%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522price-content%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%2520class%253D%2522price%2522%253E%25E2%2582%25B9459%2520%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%2520class%253D%2522actual-price%2522%253E%2520%25E2%2582%25B91%252C849%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522discount%2522%253E%2882%2525%2520off%29%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522buy-button%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522buy%2522%253EBUY%2520NOW%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+            <br>
+            <br>
+            <iframe class="code"
+                src="https://carbon.now.sh/embed?bg=rgba%28255%2C59%2C48%2C1%29&t=blackboard&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%2520%2520%253C%21----------------%2520vertical-card%2520---------------%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522vertical-card%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522%252Fcomponent%252Fcard%252Fhorizontal-image.jpeg%2522%2520alt%253D%2522%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522image-title%2522%253ESolid%2520Men%2520Hooded%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522image-subtitle%2522%253ETRIPR%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522price-content%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%2520class%253D%2522price%2522%253E%25E2%2582%25B9500%2520%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%2520class%253D%2522actual-price%2522%253E%2520%25E2%2582%25B91000%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522discount%2522%253E%2850%2525%2520off%29%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522buy-button%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522buy%2522%253EBUY%2520NOW%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+            <br>
+            <br>
+            <h3>Horizental Card , Text Overlay and Only Text Card </h3>
+            <div class="horizontal-overlay-onlytext">
+                <!----------------Horizontal Card-------->
+                <div class="code-preview">
+                    <div class="horizontal-card">
+                        <div class="horizontal-content">
+                            <div class="image-content">
+                                <img src="/component/card/horizontal-image.jpeg" alt="">
+                            </div>
+
+                            <div class="description-content">
+                                <p class="image-title">Striped Men Round </p>
+                                <i class="fa fa-heart"></i>
+                                <p class="image-subtitle">Roadster</p>
+                                <div class="price-content">
+                                    <h2 class="price">₹499 </h2>
+                                    <h3 class="actual-price"> ₹899</h3>
+                                    <p class="discount">(44% off)</p>
+                                </div>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="buy-button">
+                            <a href="#" class="buy">BUY NOW</a>
+                        </div>
+                    </div>
+                    <!----------------Text Card---------->
+                    <div class="text-overlay">
+                        <img src="tajmahal.jpg" alt="">
+                        <h2 class="text-overlay-heading">Taj Mahal</h2>
+                        <p>Taj Mahal, mausoleum complex in Uttar Pradesh in northern India, built by the Mughal emperor
+                            Shah Jahan in the 17th century</p>
+                        <div class="read-more">
+                            <a href="#"> READ MORE</a>
+                        </div>
+                    </div>
+                    <!----------------Text Only Card-------->
+                    <div class="text-only">
+                        <h2 class="text-only-heading">Taj Mahal</h2>
+                        <p>Taj Mahal, mausoleum complex in Uttar Pradesh in northern India, built by the Mughal emperor
+                            Shah Jahan in the 17th century</p>
+                        <div class="read-more">
+                            <a href="#"> READ MORE</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <iframe class="code"
+                src="https://carbon.now.sh/embed?bg=rgba%28255%2C59%2C48%2C1%29&t=blackboard&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%2520%2520%253C%21----------------Horizontal%2520Card--------%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522code-preview%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522horizontal-card%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522horizontal-content%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522image-content%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522%252Fcomponent%252Fcard%252Fhorizontal-image.jpeg%2522%2520alt%253D%2522%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522description-content%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522image-title%2522%253EStriped%2520Men%2520Round%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-heart%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522image-subtitle%2522%253ERoadster%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522price-content%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%2520class%253D%2522price%2522%253E%25E2%2582%25B9499%2520%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%2520class%253D%2522actual-price%2522%253E%2520%25E2%2582%25B9899%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522discount%2522%253E%2844%2525%2520off%29%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Chr%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522buy-button%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522buy%2522%253EBUY%2520NOW%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+            <br>
+            <iframe class="code"
+                src="https://carbon.now.sh/embed?bg=rgba%28255%2C59%2C48%2C1%29&t=blackboard&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%2520%2520%253C%21----------------Text%2520Card----------%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522text-overlay%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522tajmahal.jpg%2522%2520alt%253D%2522%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%2520class%253D%2522text-overlay-heading%2522%253ETaj%2520Mahal%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520%253ETaj%2520Mahal%252C%2520mausoleum%2520complex%2520in%2520Uttar%2520Pradesh%2520in%2520northern%2520India%252C%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520built%2520by%2520the%2520Mughal%2520emperor%2520Shah%2520Jahan%2520in%2520the%252017th%2520century%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522read-more%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%253E%2520READ%2520MORE%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+            <br>
+            <iframe class="code"
+                src="https://carbon.now.sh/embed?bg=rgba%28255%2C59%2C48%2C1%29&t=blackboard&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%2520%2520%253C%21----------------Text%2520Only%2520Card--------%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522text-only%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%2520class%253D%2522text-only-heading%2522%253ETaj%2520Mahal%253C%252Fh2%253E%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253ETaj%2520Mahal%252C%2520mausoleum%2520complex%2520in%2520Uttar%2520Pradesh%2520in%2520northern%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520India%252C%2520built%2520by%2520theMughal%2520emperorShah%2520Jahan%2520in%2520the%252017th%2520century%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522read-more%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%253E%2520READ%2520MORE%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+        </main>
+    </div>
+
+</body>
+
+</html>
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Card-component</title>
     <link rel="stylesheet" href="card.css">
 </head>
@@ -44,8 +208,8 @@
                 to make it easy for users to read the card content.</p>
             <div class="vertical-card">
                 <img src="/component/card/badge-card.jpeg" alt="">
-                <!-- <span class="card-badge">FOR SELL</span> -->
-                <p class="image-title">Solid Men Hooded </p>
+                <! <span class="card-badge">FOR SELL</span> -->
+<!-- <p class="image-title">Solid Men Hooded </p>
                 <i class="fa fa-heart"></i>
                 <p class="image-subtitle">TRIPR</p>
                 <div class="price-content">
@@ -63,8 +227,8 @@
                     <div class="image-content">
                         <img src="/component/card/horizontal-image.jpeg" alt="">
                     </div>
-                    <!-- <span class="card-badge">FOR SELL</span> -->
-                    <div class="description-content">
+                    
+ <div class="description-content">
                         <p class="image-title">Striped Men Round </p>
                         <i class="fa fa-heart"></i>
                         <p class="image-subtitle">Roadster</p>
@@ -103,4 +267,4 @@
         </main>
 </body>
 
-</html>
+</html> --> --> -->
