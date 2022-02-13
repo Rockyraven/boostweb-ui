@@ -24,4 +24,8 @@ a {
     --warning-color: rgb(211, 233, 132);
     --error-color: rgb(245, 102, 91);
     --info-color: rgb(132, 134, 233);
+    --primarybutton-color: rgb(99, 99, 241);
+    --secondarybutton-color: rgb(154, 243, 154);
+    --warningbutton-color: rgb(170, 170, 0);
+    --errorbutton-color: rgb(250, 106, 106);
 }

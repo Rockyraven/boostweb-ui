@@ -20,44 +20,31 @@
 
 }
 
-.standard-primary {
-    background-color: rgb(99, 99, 241);
-
+.standard-primary,.outline-primary {
+    /* background-color: rgb(99, 99, 241); */
+    background-color: var(--primarybutton-color);
 }
 
-.standard-secondary {
-    background-color: rgb(154, 243, 154);
+.standard-secondary,.outline-secondary {
+    background-color:  var(--secondarybutton-color);
 }
 
-.standard-error {
-    background-color: rgb(250, 106, 106);
+.standard-error,.outline-error {
+    background-color: var(--errorbutton-color);
 }
 
-.standard-warning {
-    background-color: rgb(170, 170, 0);
+.standard-warning,.outline-warning {
+    background-color: var(--warningbutton-color);
 }
 
-.outline-button {
+ .button-heading {
+    margin: 2rem 1rem 1rem 0;
+}
+
+.button-container{
+    height: 100%;
+    width: 100%;
     display: flex;
-}
-
-.outline-primary {
-    color: rgb(99, 99, 241);
-}
-
-.outline-secondary {
-    color: rgb(71, 175, 71);
-}
-
-.outline-error {
-    color: rgb(250, 106, 106);
-}
-
-.outline-warning {
-    color: rgb(248, 248, 66);
-}
-
-.button-heading {
-    margin-top: 2rem;
-
+    justify-content: space-around;
+    align-items: center;
 }
