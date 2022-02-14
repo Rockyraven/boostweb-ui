@@ -7,7 +7,6 @@
     border-radius: 0.2rem;
 }
 
-
 .container button {
     margin-left: 3rem;
     margin-top: 2.7rem;
@@ -17,11 +16,9 @@
     border-radius: 5px;
     align-items: center;
     font-weight: bolder;
-
 }
 
 .standard-primary,.outline-primary {
-    /* background-color: rgb(99, 99, 241); */
     background-color: var(--primarybutton-color);
 }
 
@@ -37,7 +34,7 @@
     background-color: var(--warningbutton-color);
 }
 
- .button-heading {
+.button-heading {
     margin: 2rem 1rem 1rem 0;
 }
 
