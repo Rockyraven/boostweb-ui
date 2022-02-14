@@ -17,8 +17,8 @@ a {
 
 :root {
     --default-color: #ffff;
-    --primary-color: #0e9aeb;
-    --secondary-color: #1f1d1d;
+    --primary-color: #ff3b30;
+    --secondary-color: #2e2e2e;
     --light-color: #414141d7;
     --success-color: rgb(129, 250, 129);
     --warning-color: rgb(211, 233, 132);

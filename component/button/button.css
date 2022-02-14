@@ -7,38 +7,53 @@
     border-radius: 0.2rem;
 }
 
-.container button {
-    margin-left: 3rem;
-    margin-top: 2.7rem;
-    border: 1px solid;
-    height: 2rem;
-    padding: 5px;
+ 
+.box button{
     border-radius: 5px;
-    align-items: center;
-    font-weight: bolder;
+    padding: 1rem;
+    font-weight: 700;
+    font-size: 1rem;
 }
 
-.standard-primary,.outline-primary {
+.standard-primary {
     background-color: var(--primarybutton-color);
 }
-
-.standard-secondary,.outline-secondary {
-    background-color:  var(--secondarybutton-color);
+.outline-primary{
+    color: var(--primarybutton-color);
+    border-color: var(--primarybutton-color);
 }
 
-.standard-error,.outline-error {
+.standard-secondary {
+    background-color:  var(--secondarybutton-color);
+}
+.outline-secondary{
+    color:  var(--secondarybutton-color);
+    border-color:  var(--secondarybutton-color);
+}
+
+.standard-error {
     background-color: var(--errorbutton-color);
 }
 
-.standard-warning,.outline-warning {
+.outline-error{
+    color: var(--errorbutton-color);
+    border-color: var(--errorbutton-color);
+}
+
+.standard-warning {
     background-color: var(--warningbutton-color);
+}
+
+.outline-warning{
+    color: var(--warningbutton-color);
+    border-color: var(--warningbutton-color);
 }
 
 .button-heading {
     margin: 2rem 1rem 1rem 0;
 }
 
-.button-container{
+.box{
     height: 100%;
     width: 100%;
     display: flex;
