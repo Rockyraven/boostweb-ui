@@ -11,7 +11,7 @@
    color: var(--secondary-color);
    text-decoration: none;
    font-weight: bold;
-   margin-right: 10px;
+   margin-right: 0.5rem;
 }
 .search-bar{
     text-align: center;
@@ -39,7 +39,7 @@
 }
 .search-button{
     position: absolute;
-    margin: 4px 15rem
+    margin: 0.2rem 15rem;
 }
 
 
