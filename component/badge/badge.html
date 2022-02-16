@@ -38,57 +38,59 @@
             <a href="/component/card/card.html">Card</a>
             <a href="/component/image/image.html">Image</a>
             <a href="/component/input/input.html">Input</a>
+            <a href="/component/navbar/navbar.html">Navbar</a>
+            <a href="/component/rating/rating.html">Rating</a>
+            <a href="/component/utility/utility.html">Text Utilities</a>
         </aside>
 
         <!-- main content -->
         <main>
             <h2 class="comp-heading">Badge</h2>
             <p class="comp-desc">Use the Badge Component Symbol to draw attention to another interface element or to
-                display a notification.enhances the component to which it is attached with additional information, disclosed
+                display a notification.enhances the component to which it is attached with additional information,
+                disclosed
                 to the user upon
                 interacting with it </p>
-                <h3>Different Types of Badges</h3>
-                <p class="comp-desc">Multiple options available for badges such as instagram badge, notification
-                    badge, mail badge, avatar badge and text badge</p>
+            <h3>Different Types of Badges</h3>
+            <p class="comp-desc">Multiple options available for badges such as instagram badge, notification
+                badge, mail badge, avatar badge and text badge</p>
             <div class="code-preview">
                 <div class="badge-container">
-                   <div class="instagram-badge badge">
-                       <a href="#"> <i class=" social-icon fa fa-instagram"  ></i></a>
-                       <h5 class="symbol1 symbol">2</h5>
-                   </div>
 
-                   <div class="bell-badge badge">
-                        <a href="#"> <i class="social-icon fa fa-bell"  ></i></a>
-                        <h5 class="symbol2 symbol">5</h5>
-                   </div>
+                    <div class="instagram-badge badge">
+                        <a href="#"> <i class="badge-icon fa fa-instagram"></i>
+                            <span class="badge-symbol">2</span></a>
+                    </div>
+                    <div class="bell-badge badge">
+                        <a href="#"> <i class="badge-icon fa fa-bell"></i>
+                            <span class="badge-symbol">3</span></a>
+                    </div>
+                    <div class="mail-badge badge">
+                        <a href="#"> <i class="badge-icon fa fa-envelope"></i>
+                            <span class="badge-symbol">4</span></a>
+                    </div>
+                    <div class="cart-badge badge">
+                        <a href="#"> <i class="badge-icon fa fa-shopping-cart"></i>
+                            <span class="badge-symbol">5</span></a>
+                    </div>
+                    <div class="avator-badge badge">
+                        <img src="avatar.png" alt="Avatar" class="badge-icon">
+                        <span class="badge-symbol">9</span>
+                    </div>
+                    <div class="text-badge badge">
+                        <h2 class="badge-text">mail</h2>
+                        <span class="badge-symbol">2</span>
+                    </div>
 
-                   <div class="mail-badge badge">
-                        <a href="#"> <i class="social-icon fa fa-envelope"  ></i></a>
-                        <h5 class="symbol3 symbol">4</h5>
-                   </div>
-
-                   <div class="cart-badge badge">
-                        <a href="#"> <i class=" social-icon fa fa-shopping-cart"  ></i></a>
-                        <h5 class="symbol4 symbol">3</h5>
-                   </div>
-                   <div class="avator-badge badge">
-                       <img src="avatar.png" alt="Avatar" class="avatar">
-                       <h5 class="symbol5 symbol">2</h5>
-                   </div>
-
-                   <div class="text-badge badge">
-                       <h2>mail</h2>
-                       <h5 class="symbol6 symbol">2</h5>
-                   </div>
                 </div>
-           </div>
-           <iframe class="code"
-           src="https://carbon.now.sh/embed?bg=rgba%28255%2C59%2C48%2C1%29&t=one-light&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522instagram-badge%2520badge%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%253E%2520%253Ci%2520class%253D%2522fab%2520fa-instagram%2522%2520style%253D%2522font-size%253A40px%2522%253E%253C%252Fi%253E%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch5%2520class%253D%2522symbol1%2520symbol%2522%253E2%253C%252Fh5%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522bell-badge%2520badge%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%253E%2520%253Ci%2520class%253D%2522fa%2520fa-bell%2522%2520style%253D%2522font-size%253A40px%2522%253E%253C%252Fi%253E%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch5%2520class%253D%2522symbol2%2520symbol%2522%253E5%253C%252Fh5%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522mail-badge%2520badge%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%253E%2520%253Ci%2520class%253D%2522fa%2520fa-envelope%2522%2520style%253D%2522font-size%253A40px%2522%253E%253C%252Fi%253E%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch5%2520class%253D%2522symbol3%2520symbol%2522%253E4%253C%252Fh5%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522cart-badge%2520badge%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%253E%2520%253Ci%2520class%253D%2522fa%2520fa-shopping-cart%2522%2520style%253D%2522font-size%253A40px%2522%253E%253C%252Fi%253E%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch5%2520class%253D%2522symbol4%2520symbol%2522%253E3%253C%252Fh5%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522avator-badge%2520badge%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522avatar.png%2522%2520alt%253D%2522Avatar%2522%2520class%253D%2522avatar%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch5%2520class%253D%2522symbol5%2520symbol%2522%253E2%253C%252Fh5%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522text-badge%2520badge%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%253Email%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch5%2520class%253D%2522symbol6%2520symbol%2522%253E2%253C%252Fh5%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520"
-           sandbox="allow-scripts allow-same-origin">
-       </iframe>        
             </div>
-     </main>
+            <iframe class="code"
+                src="https://carbon.now.sh/embed?bg=rgba%28255%2C59%2C48%2C1%29&t=blackboard&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522instagram-badge%2520badge%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%253E%2520%253Ci%2520class%253D%2522badge-icon%2520fa%2520fa-instagram%2522%253E%253C%252Fi%253E%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge-symbol%2522%253E2%253C%252Fspan%253E%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522bell-badge%2520badge%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%253E%2520%253Ci%2520class%253D%2522badge-icon%2520fa%2520fa-bell%2522%253E%253C%252Fi%253E%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge-symbol%2522%253E3%253C%252Fspan%253E%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522mail-badge%2520badge%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%253E%2520%253Ci%2520class%253D%2522badge-icon%2520fa%2520fa-envelope%2522%253E%253C%252Fi%253E%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge-symbol%2522%253E4%253C%252Fspan%253E%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522cart-badge%2520badge%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%253E%2520%253Ci%2520class%253D%2522badge-icon%2520fa%2520fa-shopping-cart%2522%253E%253C%252Fi%253E%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge-symbol%2522%253E5%253C%252Fspan%253E%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522avator-badge%2520badge%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522avatar.png%2522%2520alt%253D%2522Avatar%2522%2520class%253D%2522badge-icon%2522%2520%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge-symbol%2522%253E9%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522text-badge%2520badge%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%2520class%253D%2522badge-text%2522%253Email%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge-symbol%2522%253E2%253C%252Fspan%253E%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+    </div>
+    </main>
     </div>
 </body>
+
 </html>
- 
