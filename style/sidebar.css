@@ -23,3 +23,10 @@ aside a:hover {
     font-size: 2rem;
     transition: 0.5s;
 }
+@media
+(max-width: 800px)
+ { aside{
+
+     display: none;
+    }
+ }
