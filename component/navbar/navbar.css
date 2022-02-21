@@ -1,0 +1,47 @@
+.nav-heading{
+    display: flex;
+    height: 4rem;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid;
+    padding: 5px;
+}
+.login-section a,.search-bar a{
+   color: var(--secondary-color);
+   text-decoration: none;
+   font-weight: bold;
+   margin-right: 0.5rem;
+}
+.search-bar{
+    text-align: center;
+    margin-left: 15rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+.login-section{
+    margin-left: auto;
+    display: flex;
+}
+.search-input-box{
+    height: 2rem;
+    width: 17rem;
+    border-radius: 0.8rem;
+    flex-wrap: wrap;
+}
+.input-box{
+    height: 3rem;
+    width: 15rem;
+    margin-bottom: 2rem;
+}
+.search-input{
+    height: 2rem;
+    width: 17rem;
+}
+.search-button{
+    position: absolute;
+    margin: 0.2rem 15rem;
+}
+ 
+
+
