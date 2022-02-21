@@ -1,11 +1,3 @@
-@import url('/style.css');
- @import url('/component/slidebaar.css');
- @import url('/component/alert/alert.css');
- body{
-     margin: 0px;
-     padding: 0px;
-     font-family: 'Montserrat', sans-serif;
- }
  :root{
      --radiochecbox-color: white;
  }
@@ -15,7 +7,6 @@
     height: 2rem;
     width: 15rem;
     gap: 2rem;
-    /* display: flex; */
     flex-wrap: wrap;
     margin-left: 2rem;
     margin-top: 2rem;
@@ -34,11 +25,24 @@
 }
  
 .radio-text, .checkbox-text{
-    margin-left : -6.5rem;
+    margin-top: 1rem;
     cursor: pointer;
     background-color: var(--radiochecbox-color);
 }
-.radio-checkbox-inputconatainer{
-    display: flex;
-
-}
+  .input-box{
+      height: 2rem;
+      width: 12rem;
+      border-radius: 5px;
+      border-color: var(--primary-color);
+  }
+  .inputbox{
+      margin-top: 1rem;
+      gap: 2rem;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+  }
+  .checkbox-input,.radio-input{
+      margin-left: 2rem;
+  }
+  
