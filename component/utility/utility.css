@@ -1,0 +1,31 @@
+ .text-align p{
+    font-size: 1.5rem;
+ }
+ .text-align{
+     height: 100%;
+     width: 100%;
+ }
+ .centre-align{
+    justify-content: center;
+    align-items: center;
+    margin-left: 25rem;
+ }
+
+ .right-align{
+     margin-left: 50rem;
+ }
+ .paragraph-lg{
+     font-size: 2rem;
+ }
+ .paragraph-rg{
+     font-size: 1.5rem;
+ }
+ .paragraph-md{
+     font-size: 1rem;
+ }
+ .paragraph-sm{
+     font-size: 0.7rem;
+ }
+ .text-heading{
+     margin: 2rem 0 1rem 1rem;
+ }

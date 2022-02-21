@@ -13,6 +13,9 @@
      color: var(--default-color);
 
  }
+ button  {
+     display: none;;
+ }
 
  .heading {
      margin-bottom: 2rem;
