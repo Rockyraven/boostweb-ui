@@ -21,6 +21,7 @@
 }
 .login-section{
     margin-left: auto;
+    display: flex;
 }
 .search-input-box{
     height: 2rem;
@@ -40,6 +41,9 @@
 .search-button{
     position: absolute;
     margin: 0.2rem 15rem;
+}
+.login-section{
+
 }
 
 
