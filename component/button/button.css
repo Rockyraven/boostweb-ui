@@ -7,57 +7,56 @@
     border-radius: 0.2rem;
 }
 
-
-.container button {
-    margin-left: 3rem;
-    margin-top: 2.7rem;
-    border: 1px solid;
-    height: 2rem;
-    padding: 5px;
+ 
+.box button{
     border-radius: 5px;
-    align-items: center;
-    font-weight: bolder;
-
+    padding: 1rem;
+    font-weight: 700;
+    font-size: 1rem;
 }
 
 .standard-primary {
-    background-color: rgb(99, 99, 241);
-
+    background-color: var(--primarybutton-color);
+}
+.outline-primary{
+    color: var(--primarybutton-color);
+    border-color: var(--primarybutton-color);
 }
 
 .standard-secondary {
-    background-color: rgb(154, 243, 154);
+    background-color:  var(--secondarybutton-color);
+}
+.outline-secondary{
+    color:  var(--secondarybutton-color);
+    border-color:  var(--secondarybutton-color);
 }
 
 .standard-error {
-    background-color: rgb(250, 106, 106);
+    background-color: var(--errorbutton-color);
+}
+
+.outline-error{
+    color: var(--errorbutton-color);
+    border-color: var(--errorbutton-color);
 }
 
 .standard-warning {
-    background-color: rgb(170, 170, 0);
+    background-color: var(--warningbutton-color);
 }
 
-.outline-button {
-    display: flex;
-}
-
-.outline-primary {
-    color: rgb(99, 99, 241);
-}
-
-.outline-secondary {
-    color: rgb(71, 175, 71);
-}
-
-.outline-error {
-    color: rgb(250, 106, 106);
-}
-
-.outline-warning {
-    color: rgb(248, 248, 66);
+.outline-warning{
+    color: var(--warningbutton-color);
+    border-color: var(--warningbutton-color);
 }
 
 .button-heading {
-    margin-top: 2rem;
+    margin: 2rem 1rem 1rem 0;
+}
 
+.box{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
