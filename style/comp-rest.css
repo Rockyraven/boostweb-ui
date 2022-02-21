@@ -54,6 +54,10 @@ main{
     min-height: 50vh;
 }
 .component-button{
+    font-size: 1.5rem;
+    margin: 1rem;
+}
+.right-button{
     font-size: 2rem;
     margin: 2rem;
     float: right;
