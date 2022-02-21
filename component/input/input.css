@@ -1,9 +1,4 @@
- :root{
-     --radiochecbox-color: white;
- }
- 
  .input-container input{
-    border-radius: 5px;
     height: 2rem;
     width: 15rem;
     gap: 2rem;
@@ -11,38 +6,27 @@
     margin-left: 2rem;
     margin-top: 2rem;
     align-items: center;
-    
+    display: flex
 }
+    
 .input-container{
     margin-top: 2rem;
     justify-content: center;
 }
-.input-container input:hover{
-    border-color: var(--primary-color);
-}
 .input-subtitle{
     margin-left: 4.4rem;
 }
- 
-.radio-text, .checkbox-text{
-    margin-top: 1rem;
-    cursor: pointer;
-    background-color: var(--radiochecbox-color);
+.input-box{
+    height: 2rem;
+    width: 12rem;
+    border-color: var(--primary-color);
+  }
+.inputbox{
+    gap: 4rem;
+    display: flex;
+    justify-content: space-around;
 }
-  .input-box{
-      height: 2rem;
-      width: 12rem;
-      border-radius: 5px;
-      border-color: var(--primary-color);
-  }
-  .inputbox{
-      margin-top: 1rem;
-      gap: 2rem;
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-  }
-  .checkbox-input,.radio-input{
-      margin-left: 2rem;
-  }
+.checkbox-input,.radio-input{
+    margin-left: 2rem;
+}
   
