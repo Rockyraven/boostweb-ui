@@ -1,2 +1,10 @@
 @import url('./alert/alert.css');
 @import url('./button/button.css');
+@import url('./avatar/avatar.css');
+@import url('/component/badge/badge.css');
+@import url('/component/input/input.css');
+@import url('/component/image/image.css');
+@import url('/component/card/card.css');
+@import url('/component/utility/utility.css');
+@import url('/component/rating/rating.css');
+@import url('/component/navbar/navbar.css');
