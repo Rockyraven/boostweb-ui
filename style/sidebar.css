@@ -24,7 +24,7 @@ aside a:hover {
     transition: 0.5s;
 }
 @media
-(max-width: 800px)
+(max-width: 850px)
  { aside{
 
      display: none;

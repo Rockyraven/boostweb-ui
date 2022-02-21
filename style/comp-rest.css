@@ -53,3 +53,8 @@ main{
     border: none;
     min-height: 50vh;
 }
+.component-button{
+    font-size: 2rem;
+    margin: 2rem;
+    float: right;
+}
