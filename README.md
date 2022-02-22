@@ -3,7 +3,7 @@
 
 ![](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) 
 ![](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white) <br>
-[![Netlify Status](https://api.netlify.com/api/v1/badges/4e609252-5780-4434-97a1-dfa72abb19eb/deploy-status)](https://app.netlify.com/sites/shoeshoppers/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/4e609252-5780-4434-97a1-dfa72abb19eb/deploy-status)](https://app.netlify.com/sites/boostweb-ui/deploys)
   
   
   
