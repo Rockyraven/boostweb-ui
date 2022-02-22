@@ -29,4 +29,4 @@ Example can be seen at  https://boostweb-ui.netlify.app/component/boostweb.css;
 1. [Navbar](https://boostweb-ui.netlify.app/component/navbar/navbar.html)
 1. [model](https://boostweb-ui.netlify.app/component/model/model.html)
 
- ![image](/images/page 2.PNG)
+![image](/images/page 2.PNG)
