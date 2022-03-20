@@ -27,7 +27,7 @@ a {
     --primarybutton-color: rgb(99, 99, 241);
     --secondarybutton-color: rgb(154, 243, 154);
     --warningbutton-color: rgb(170, 170, 0);
-    --errorbutton-color: rgb(250, 106, 106)
+    --errorbutton-color: rgb(250, 106, 106);
     --button-color: rgb(73, 72, 72);
     --subtitleActualprice-color: rgb(177, 176, 176);
 }
