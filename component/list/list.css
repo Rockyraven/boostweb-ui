@@ -1,0 +1,30 @@
+.stacked-list{
+    height: auto;
+    width: 12rem;
+    border: 1px solid;
+}
+.stacked-list ul li a{
+    padding-bottom: 1rem;
+    font-size: 1.5rem;
+    border-bottom: 1px solid;
+    display: block;
+    color: var(--secondary-color);
+    text-align: center;
+}
+.stacked-list ul li a:hover{
+    background-color: var(--subtitleActualprice-color);
+}
+.stacked-list ul li{
+    list-style-type: none;
+}
+.spaced-list{
+    border: 1px solid;
+    padding: 1rem;
+    width: 100%;
+    text-align: center;
+}
+.spaced-list a{
+    margin: 4rem;
+    color: var(--secondary-color);
+    font-size: 1.5rem;
+}
