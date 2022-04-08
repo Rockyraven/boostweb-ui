@@ -10,8 +10,8 @@
 @import url('/component/navbar/navbar.css');
 @import url('/component/rating/rating.css');
 @import url('/component/utility/utility.css');
-/* @import url('/style/comp-rest.css'); */
-/* @import url('/style/header.css'); */
-/* @import url('/style/reset.css'); */
-/* @import url('/style/sidebar.css'); */
-/* @import url('/style/style.css'); */
+@import url('/style/comp-rest.css'); 
+@import url('/style/header.css');
+@import url('/style/reset.css');
+@import url('/style/sidebar.css');
+@import url('/style/style.css'); 
