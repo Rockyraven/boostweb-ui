@@ -29,3 +29,12 @@
  .text-heading{
      margin: 2rem 0 1rem 1rem;
  }
+ .underline{
+     text-decoration: underline;
+ }
+ .overline{
+     text-decoration: overline;
+ }
+ .line-through{
+     text-decoration: line-through;
+ }
