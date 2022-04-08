@@ -1,10 +1,10 @@
  @import url('./reset.css');
  @import url('./header.css');
 
- main {
+ /* main {
      display: flex;
      justify-content: flex-end;
- }
+ } */
 
  .description {
      width: 30rem;
