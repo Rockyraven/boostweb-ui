@@ -1,12 +1,5 @@
 @import url('/style.css');
 @import url('/component/slidebaar.css');
-
-.btn{
-    border: 2px solid red;
-    padding: 0.5rem;
-    border-radius: 0.2rem;
-}
-
  
 .box button{
     border-radius: 5px;
@@ -17,7 +10,11 @@
 }
 
 .standard-primary {
+    color: var(--primarybutton-color);
+}
+.standard-primary:hover{
     background-color: var(--primarybutton-color);
+    color: var(--default-color);
 }
 .outline-primary{
     color: var(--primarybutton-color);
@@ -25,24 +22,40 @@
 }
 
 .standard-secondary {
-    background-color:  var(--secondarybutton-color);
+    color:  var(--secondarybutton-color);
+    border: none;
+    background-color: var(--default-color);
 }
 .outline-secondary{
     color:  var(--secondarybutton-color);
     border-color:  var(--secondarybutton-color);
 }
-
-.standard-error {
-    background-color: var(--errorbutton-color);
+.standard-secondary:hover {
+    background-color:  var(--secondarybutton-color);
+    border: 1px solid;
+    color: var(--default-color);   
+}
+.standard-error{
+    background-color: var(--default-color);
+    border: none;
+}
+.standard-error:hover {
+    text-decoration: underline;
+    color: var(--errorbutton-color);
 }
 
 .outline-error{
     color: var(--errorbutton-color);
     border-color: var(--errorbutton-color);
 }
-
-.standard-warning {
-    background-color: var(--warningbutton-color);
+.standard-warning{
+    border: none;
+    text-decoration: underline;
+    background-color: var(--default-color);   
+}
+.standard-warning:hover {
+    color: var(--warningbutton-color);
+    text-decoration: none;
 }
 
 .outline-warning{
@@ -62,4 +75,7 @@
     justify-content: space-around;
     align-items: center;
     box-sizing: border-box;
+}
+.icon-button button:hover {
+    background-color: var(--default-color);
 }
