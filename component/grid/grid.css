@@ -50,7 +50,7 @@
 }
 .main-content{
     height: 10rem;
-    background-color: skyblue;
+    background-color: var(--errorbutton-color);
     grid-area: main-content;
 }
 .footer-bar{
