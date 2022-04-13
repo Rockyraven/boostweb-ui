@@ -1,0 +1,78 @@
+.grid-first, .grid-third, .grid-five{
+    background-color: var(--info-color);
+    height: 3rem;
+    margin: 5px;
+}
+.grid-second, .grid-fourth, .grid-six{
+    background-color: var(--success-color);
+    height: 3rem;
+    margin: 5px;
+}
+.grid-20-80-layout{
+    width: 100%;
+    grid-template-areas: "grid-first grid-second";
+    grid-template-columns: 20% 80%;
+    text-align: center;
+}
+.grid-40-60-layout{
+    width: 100%;
+    grid-template-areas: "grid-third grid-fourth";
+    grid-template-columns: 40% 60%;
+    text-align: center;
+}
+.grid-80-20-layout{
+    width: 100%;
+    grid-template-areas: "grid-five grid-six";
+    grid-template-columns: 80% 20%;
+    text-align: center;
+}
+.grids{
+    display: grid;
+    font-size: 2rem;
+}
+.nav-bar{
+    height: 2rem;
+    margin-bottom: 0.5rem;
+    background-color: var(--success-color);
+    grid-area: navbar;
+}
+.aside-lt{
+    height: 10rem;
+    margin-right: 0.5rem;
+    background-color: var(--secondarybutton-color);
+    grid-area: aside-lt;
+}
+.aside-rt{
+    height: 10rem;
+    margin-left: 0.5rem;
+    background-color: var(--warning-color);
+    grid-area: aside-rt;
+}
+.main-content{
+    height: 10rem;
+    background-color: skyblue;
+    grid-area: main-content;
+}
+.footer-bar{
+    height: 2rem;
+    margin-top: 0.5rem;
+    background-color: var(--info-color);
+    grid-area: footer-bar;
+}
+.web-page-grid{
+    grid-template-columns: 1fr 4fr 1fr;
+    grid-template-areas: 
+    "navbar navbar navbar"
+    "aside-lt main-content aside-rt"
+    "aside-lt main-content aside-rt"
+    "aside-lt main-content aside-rt"
+    "footer-bar footer-bar footer-bar";
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.grid-subtitle{
+    margin: 1rem;
+}
