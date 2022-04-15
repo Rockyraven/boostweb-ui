@@ -1,0 +1,7 @@
+body{
+    background-image: url('/images/component-wallpaper1.jpg');
+}
+.btn-explore{
+    border: 1px solid;
+    padding: 8px;
+}
