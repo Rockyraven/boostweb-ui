@@ -1,0 +1,33 @@
+.grid-first, .grid-third, .grid-five{
+    background-color: aqua;
+    height: 3rem;
+    padding: 5px;
+}
+.grid-second, .grid-fourth, .grid-six{
+    background-color: aquamarine;
+    height: 3rem;
+    padding: 5px;
+}
+.grid-20-80-layout{
+    width: 100%;
+    grid-template-areas: "grid-first grid-second";
+    grid-template-columns: 20% 80%;
+    text-align: center;
+}
+.grid-40-60-layout{
+    width: 100%;
+    grid-template-areas: "grid-third grid-fourth";
+    grid-template-columns: 40% 60%;
+    text-align: center;
+}
+.grid-80-20-layout{
+    width: 100%;
+    grid-template-areas: "grid-five grid-six";
+    grid-template-columns: 80% 20%;
+    text-align: center;
+}
+.grids{
+    display: grid;
+    font-size: 2rem;
+
+}

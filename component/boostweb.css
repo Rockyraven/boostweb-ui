@@ -6,7 +6,6 @@
 @import url('/component/image/image.css');
 @import url('/component/input/input.css');
 @import url('/component/model/model.css');
-@import url('/component/model/model.css');
 @import url('/component/navbar/navbar.css');
 @import url('/component/rating/rating.css');
 @import url('/component/utility/utility.css');
@@ -15,4 +14,7 @@
 @import url('/style/reset.css');
 @import url('/style/sidebar.css');
 @import url('/style/style.css'); 
+@import url('./grid/grid.css');
+@import url('/list/list.css');
 @import url('./toast/toast.css');
+
