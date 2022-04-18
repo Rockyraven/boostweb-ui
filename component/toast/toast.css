@@ -1,0 +1,35 @@
+.toast{
+    width: 18rem;
+    margin: 1rem;
+    display: flex;
+    padding: 1rem;
+    gap: 1rem;
+    position: relative;
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+.cut-symbol{
+    margin-left: auto;
+    font-size: larger;
+}
+
+.success-toast{
+    background-color: var(--secondarybutton-color);
+    color: var(--success);
+    border-left: 5px solid var(--success);
+}
+.error-toast{
+    background-color: var(--error);
+    color: var(--primary-color);
+    border-left: 5px solid var(--primary-color);
+}
+.warning-toast{
+    background-color: var(--warning-color);
+    color: var(--warningbutton-color);
+    border-left: 5px solid var(--warningbutton-color);
+}
+.message-toast{
+    background-color: var(--info);
+    color: var(--primarybutton-color);
+    border-left: 5px solid var(--primarybutton-color);
+}
