@@ -29,4 +29,7 @@ a {
     --errorbutton-color: rgb(250, 106, 106);
     --button-color: rgb(73, 72, 72);
     --subtitleActualprice-color: rgb(177, 176, 176);
+    --success: green;
+    --error: rgb(243, 167, 167);
+    --info: rgb(188, 188, 255);
 }
